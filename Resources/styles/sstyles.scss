@@ -1,0 +1,79 @@
+
+$primarycolor:teal;
+$secondarycolor:cornflowerblue;
+$accentcolor:darkblue;
+$contentcolor:mediumvioletred;
+
+@media(min-width:992px) {
+    .banner {
+        font-size:4rem !important;
+    }
+
+    .mynav a {
+        font-size:2rem !important;
+    }
+
+    .pagejump {
+        display:none;
+    }
+
+    .clear {
+        clear:both;
+    }
+}
+
+body {
+    margin:5px 18px;
+}
+
+.banner {
+    font-size:2rem;
+    background-color:$primarycolor;
+    text-align: center;
+    padding: 5px 18px;
+}
+
+.mynavind {
+    width:25%;
+    background-color:$secondarycolor;
+    float:left;
+}
+.mynav  a {
+    color:white;
+    font-size:.8rem;
+}
+
+.mynav .active {
+    background-color:$accentcolor;
+}
+
+#about {
+    background-color:$primarycolor;
+}
+
+.pagejump {
+    clear:both;
+    font-size: .75rem;
+    text-align:center;
+}
+
+.row h5 {
+    text-align:center;
+}
+
+.nestedul {
+    color:$contentcolor;
+}
+
+.pagination {
+    width:100%;
+}
+
+.pagination a {
+    margin:auto;
+}
+
+.sectitle {
+    background-color:teal;
+    text-align:center;
+}
