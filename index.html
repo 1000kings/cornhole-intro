@@ -5,55 +5,59 @@
         <meta name="viewport" content="width=device-width, initial scale=1.0">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
             integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-
+        <link rel="stylesheet" href="Resources/styles/styles.css">
         <title>Introducing Cornhole</title>
     </head>
+   
     <body>
         <div class="banner">
-            <h1>Let's Toss!</h1>
+            Let's Play Some Bags!
         </div>
 
-        <div class="topnav">
-            <a class="active" href="index.html">Home</a>
-            <a href="page2.html">Equipment</a>
-            <a href="page3.html">Throwing</a>
-            <a href="page4.html">Talk the Game</a>
+        <div class="mynav"> 
+            <div class="mynavind active">
+                <a href="index.html">Home</a>  
+            </div>               
+            <div class="mynavind">
+                <a href="page2.html">Equipment</a>
+            </div>                       
+            <div class="mynavind">
+                <a href="page3.html">Throwing</a>
+            </div>                              
+            <div class="mynavind">
+                <a href="page4.html">Talk the Game</a>  
+            </div>                              
         </div>
         
         <div class="pagejump">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <a href="#about">About Cornhole</a>
-                    </div>
-                    <div class="col">
-                        <a href="#rules">Rules of the Game</a>
-                    </div>
-                </div>
-            </div>
+            Jumpt to...
+            <a href="#rules"> the Rules</a>            
         </div>
 
-        <div class="container">
+        <div class="container-fluid clear" id="intro">
             <div class="row">
-                <div class="col-lg" id="about">
-                    Cornhole, also known as "bags" is one of the fastest growing backyard games, and yes, also Professional Sports
+                <div class="col-lg-6" id="about">
+                    <h5>Intro to Cornhole</h5>
+                    <p>Cornhole, also known as "bags" is one of the fastest growing backyard games, and yes, Professional Sports
                     in America.  It's extremely fun, quickly addicting and can provide hours of fun for large groups of participants.
                     There are levels of competition so anyone from a beginner, to a backyard bagger or even an elite professional can find
                     people that will allow the game to be enjoyable.  The saying about cornhole is that Anyone can play and Anyone can win,
                     which is a big part of the growing success of the game.
+                    </p> 
                 </div>
 
-                <div class="col-lg" id="rules">
+                <div class="col-lg-6" id="rules">
+                    <h5>Rules of the Game</h5>
                     <ul id="listofrules">
                         <li>there are two game boards that are faced opposite eachother and spaced 27 feet apart from the front of one board to the front of the other</li>
                         <li>the game can be basically played as a singles match, ie one player against another, or a doubles match with two teams playing against eachother</li>
-                            <ul>
+                            <ul class="nestedul">
                                 <li>in a singles match both players start from the same board, one player on each side of the board, and face the opposite board</li>
                                 <li>in a doubles match one player from each team will position on each side of one board and the other pair of players will position on the opposite board on the same side of the board as their teammate</li>
                                 <li>a player may position themselves along the side of the board any way they would like but they cannot be positioned with feet further than the front of the board or wider than 3 feet from the side of the board </li>
                             </ul>
                         <li>each singles player or doubles team plays the game with 4 bags, for a total of 8 bags in the game</li>
-                            <ul>
+                            <ul class="nestedul">
                                 <li>the bags MUST be thrown underhand from one board to the opposite board; this is called pitching</li>
                                 <li>the throwing of the bags is alternated: starting from the first board the first player will throw a bag and then the second player will throw a bag, alternating until each player has thrown 4 bags</li>
                                     <ul>
@@ -62,7 +66,7 @@
                                     </ul>
                             </ul>
                         <li>after each player has alternatingly thrown their 4 bags from one board to the other the "round" is scored</li>
-                            <ul>
+                            <ul class="nestedul">
                                 <li>a bag that is on the board is worth 1 point</li>
                                 <li>a bag that has been thrown into the hole in the board is worth 3 points</li>
                                 <li>a bag that is off the board is worth 0 points</li>
@@ -73,7 +77,7 @@
                                     </ul>
                             </ul>
                         <li>the game continues through rounds from one board to the other until one player or team reaches or surpasses 21 points</li>
-                            <ul>
+                            <ul class="nestedul">
                                 <li>a player can go over 21 points to end the game without penalty; if a player has 18 points and scores 5 points in the final round the game is over</li>
                             </ul>
                     </ul>
@@ -82,7 +86,7 @@
         </div>
 
         <div class="pagination">
-            <a href="page2.html">Next Page: Equipment</a>
+            <a href="page2.html">Next Page: Equipment&gt&gt</a>
         </div>
     </body>
 </html>
