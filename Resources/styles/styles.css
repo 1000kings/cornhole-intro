@@ -1,0 +1,74 @@
+
+@media(min-width:992px) {
+    .banner {
+        font-size:4rem !important;
+    }
+
+    .mynav a {
+        font-size:2rem !important;
+    }
+
+    .pagejump {
+        display:none;
+    }
+
+    .clear {
+        clear:both;
+    }
+}
+
+body {
+    margin:5px 18px;
+}
+
+.banner {
+    font-size:2rem;
+    background-color:teal;
+    text-align: center;
+    padding: 5px 18px;
+}
+
+.mynavind {
+    width:25%;
+    background-color:cornflowerblue;
+    float:left;
+}
+.mynav  a {
+    color:white;
+    font-size:.8rem;
+}
+
+.mynav .active {
+    background-color:darkblue;
+}
+
+#about {
+    background-color:teal;
+}
+
+.pagejump {
+    clear:both;
+    font-size: .75rem;
+    text-align:center;
+}
+
+.row h5 {
+    text-align:center;
+}
+
+.nestedul {
+    color: mediumvioletred;
+}
+
+.pagination {
+    width:100%;
+}
+
+.pagination a {
+    margin:auto;
+}
+
+.sectitle {
+    background-color:teal;
+    text-align:center;
+}
