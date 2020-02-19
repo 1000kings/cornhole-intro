@@ -1,0 +1,108 @@
+.psub, .pintro, p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+}
+
+@media (min-width: 992px) {
+  .banner {
+    font-size: 4rem !important;
+  }
+
+  .mynav a {
+    font-size: 1.5rem !important;
+  }
+
+  .pagejump {
+    display: none;
+  }
+
+  .psub, .pintro, p {
+    font-size: 1rem;
+  }
+
+  .clear {
+    clear: both;
+  }
+}
+body {
+  margin: 5px 18px;
+}
+
+.banner {
+  font-size: 2rem;
+  background-color: teal;
+  text-align: center;
+  padding: 5px 18px;
+}
+
+.mynav {
+  background-color: cornflowerblue;
+  font-size: 0.7rem;
+  margin: 0px 0px 8px 0px;
+}
+.mynav a {
+  color: white;
+}
+.mynav .active {
+  background-color: darkblue;
+}
+
+.mynavind {
+  width: 25%;
+  background-color: cornflowerblue;
+  float: left;
+  padding-left: 3px;
+}
+
+#about {
+  background-color: teal;
+}
+
+.pagejump {
+  clear: both;
+  font-size: 0.75rem;
+  text-align: center;
+}
+.pagejump a:hover {
+  color: mediumvioletred;
+}
+
+.row h5 {
+  text-align: center;
+}
+
+.nestedul {
+  color: mediumvioletred;
+}
+
+.morenestedul {
+  color: teal;
+}
+
+.pagination {
+  width: 100%;
+}
+.pagination a {
+  margin: auto;
+  text-align: center;
+}
+.pagination a:hover {
+  color: mediumvioletred;
+}
+
+.sectitle {
+  background-color: teal;
+  text-align: center;
+  padding-bottom: 3px;
+}
+
+.pintro {
+  font-weight: bold;
+  padding: 8px;
+}
+
+.psub {
+  font-style: italic;
+}
+
+/*# sourceMappingURL=sstyles.css.map */

@@ -4,17 +4,26 @@ $secondarycolor:cornflowerblue;
 $accentcolor:darkblue;
 $contentcolor:mediumvioletred;
 
+%basicpara {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: .8rem;
+}
+
 @media(min-width:992px) {
     .banner {
         font-size:4rem !important;
     }
 
     .mynav a {
-        font-size:2rem !important;
+        font-size:1.5rem !important;
     }
 
     .pagejump {
         display:none;
+    }
+
+    %basicpara {
+        font-size:1rem;
     }
 
     .clear {
@@ -33,18 +42,25 @@ body {
     padding: 5px 18px;
 }
 
+.mynav {
+    a {
+        color:white;
+    }
+
+    .active {
+        background-color:$accentcolor;
+    }
+
+    background-color:$secondarycolor;
+    font-size: .7rem;
+    margin:0px 0px 8px 0px;
+}
+
 .mynavind {
     width:25%;
     background-color:$secondarycolor;
     float:left;
-}
-.mynav  a {
-    color:white;
-    font-size:.8rem;
-}
-
-.mynav .active {
-    background-color:$accentcolor;
+    padding-left:3px;
 }
 
 #about {
@@ -52,6 +68,9 @@ body {
 }
 
 .pagejump {
+    a:hover {
+        color:$contentcolor;
+    }
     clear:both;
     font-size: .75rem;
     text-align:center;
@@ -65,15 +84,39 @@ body {
     color:$contentcolor;
 }
 
-.pagination {
-    width:100%;
+.morenestedul {
+    color:$primarycolor;
 }
 
-.pagination a {
-    margin:auto;
+.pagination {
+    a {
+        margin:auto;
+        text-align:center;
+    }
+
+    a:hover {
+        color:$contentcolor;
+    }
+    width:100%;
 }
 
 .sectitle {
     background-color:teal;
     text-align:center;
+    padding-bottom:3px;
+}
+
+p {
+    @extend %basicpara;
+}
+
+.pintro {
+    @extend %basicpara;
+    font-weight:bold;
+    padding:8px;
+}
+
+.psub {
+    @extend %basicpara;
+    font-style:italic;
 }
