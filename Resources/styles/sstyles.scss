@@ -10,9 +10,6 @@ $contentcolor:mediumvioletred;
 }
 
 @media(min-width:992px) {
-    .banner {
-        font-size:4rem !important;
-    }
 
     .mynav a {
         font-size:1.5rem !important;
@@ -36,7 +33,6 @@ body {
 }
 
 .banner {
-    font-size:2rem;
     background-color:$primarycolor;
     text-align: center;
     padding: 5px 18px;
